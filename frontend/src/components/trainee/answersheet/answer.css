@@ -1,0 +1,20 @@
+.answer-table-wrapper{
+    width:100%;
+}
+.answer-table-heading{
+    width:100%;
+    text-align: center;
+}
+.answer-table-outer{
+    width:100%;
+    padding:50px
+}
+.feedbackFormHolder{
+    width:50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-top:50px;
+}
+.pp{
+    padding: 15px;
+}

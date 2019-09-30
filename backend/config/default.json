@@ -1,0 +1,12 @@
+{
+    "mongodb": {
+        "connectionString": "<Mongo db connection string>"
+    },
+    "jwt": {
+        "secret" : "Examination Portal Application"
+    },
+    "mail-credentials" : {
+        "userid" :"<smtp server userId>",
+        "password" : "<smtp server password>"
+    }
+}

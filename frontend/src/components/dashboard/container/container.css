@@ -1,0 +1,12 @@
+.content-container-wrapper-1{
+    width:100%;
+    padding-left: 106px;
+    padding-top: 50px;
+    min-height: 100vh;
+}
+.content-container-inner{
+    min-height: 100vh;
+    width:100%;
+    background: rgb(205, 217, 225); 
+    padding:20px; 
+}

@@ -1,0 +1,18 @@
+.register-trainer-form{
+    width:100%;
+    border-radius: 5px;
+}
+.register-trainer-form-header{
+    width: 100%;
+    height:40px;
+    background-color: rgb(120,135,145);
+    border-radius : 5px 5px 0px 0px;
+    padding-top : 10px;
+}
+.register-trainer-form-body{
+    width: 100%; 
+}
+.input-admin-trainer{
+    width:90%;
+    margin-left: 5%;
+}

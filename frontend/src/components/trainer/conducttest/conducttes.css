@@ -1,0 +1,21 @@
+.conduct-test-main-wrapper{
+    min-height: 600px;
+}
+.test-conduct-testid-form{
+    width:30%;
+    margin-left: 35%;
+    padding:50px;
+    border-radius: 5px; 
+    background: linear-gradient(to right,rgb(80,190,189),rgb(0,153,153),rgb(0,153,203));
+    text-align: center;
+}
+.candidate-list-header-container{
+    padding:0px 0px;
+}
+.reload-button{
+    margin-bottom: 20px;
+}
+.green{
+    background: rgb(16, 143, 16);
+    color: #fff
+}

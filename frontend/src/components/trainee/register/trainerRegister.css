@@ -1,0 +1,25 @@
+.trainee-registration-form-wrapper{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: rgb(205,217,225);
+}
+.trainee-registration-form-inner{
+    background: linear-gradient(to right,rgb(80,190,189),rgb(0,153,153),rgb(0,153,203));
+    width: 50%;
+    padding:40px;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 80px;
+}
+.reasendmail-container-register{
+    background: linear-gradient(to right,rgb(80,190,189),rgb(0,153,153),rgb(0,153,203));
+    border-radius: 5px;
+    width:50%;
+    margin-left: 25%;
+    margin-top: 80px;
+    min-height: 100px;
+    padding:40px;
+    text-align: center;
+    color: #fff;
+}
