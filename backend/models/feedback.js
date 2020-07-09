@@ -1,4 +1,4 @@
-var mongoose = require("../services/connection");
+var mongoose = require("mongoose");
 var feedbackschema = require("../schemas/feedback");
 
 var FeedbackModel = mongoose.model('FeedbackModel',feedbackschema);

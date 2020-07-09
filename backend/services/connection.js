@@ -1,5 +1,6 @@
 var mongoose = require("mongoose");
 var config = require('config');
+let tool = require("./tool")
 
 
 
@@ -16,7 +17,8 @@ const options = {
 };
 
 mongoose.connect(config.get('mongodb.connectionString'),options).then(()=>{
-    console.log("connected to mongoDB")
+    console.log("connected to mongoDB");
+    //tool.createadmin();
 }).catch((err)=>{
     console.log("Error connecting to database",err);
 })

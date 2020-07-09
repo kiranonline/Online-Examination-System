@@ -1,5 +1,4 @@
-var mongoose = require("../services/connection");
-
+var mongoose = require("mongoose");
 var traineeschema = new mongoose.Schema({
     name : {
         type : String,

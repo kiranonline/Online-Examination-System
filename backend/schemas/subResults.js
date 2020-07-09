@@ -1,4 +1,4 @@
-var mongoose = require("../services/connection");
+var mongoose = require("mongoose");
 var subResultsSchema = new mongoose.Schema({
     qid : {
         type: mongoose.Schema.Types.ObjectId,

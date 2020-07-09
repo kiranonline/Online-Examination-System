@@ -2,21 +2,25 @@ var UserModel = require("../models/user");
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 
+
 //create admin
 var createadmin = ()=>{
-    bcrypt.hash("admin", saltRounds).then(function(hash) {
-        UserModel.create({
+    bcrypt.hash("admin", saltRounds).then((hash)=>{
+        var tempdata = new UserModel({
             name : 'rupali',
             password : hash,
             emailid : 'periwal.rupali@gmail.com',
             contact : '9563152391',
             type: 'ADMIN',
-        }).then(()=>{
-            console.log('Admin account created')
-        }).catch((error)=>{
-            console.error(error)
         })
-    });
+        tempdata.save().then(()=>{
+            console.log("user created")
+        }).catch((err)=>{
+            console.log("err1",err);
+        })
+    }).catch((err)=>{
+        console.log("err2",err)
+    })
 }
 
 

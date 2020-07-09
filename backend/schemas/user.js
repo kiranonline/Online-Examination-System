@@ -1,4 +1,4 @@
-var mongoose = require("../services/connection");
+var mongoose = require("mongoose");
 var UserModel = require("../models/user");
 
 

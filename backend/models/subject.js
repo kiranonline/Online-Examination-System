@@ -1,4 +1,4 @@
-var mongoose = require("../services/connection");
+var mongoose = require("mongoose");
 var subjectschema = require("../schemas/subjects");
 
 

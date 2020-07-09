@@ -1,4 +1,4 @@
-var mongoose = require("../services/connection");
+var mongoose = require("mongoose");
 var answersheetschema = require("../schemas/answersheet");
 
 var AnswersheetModel = mongoose.model('AnswersheetModel',answersheetschema);

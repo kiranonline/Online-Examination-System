@@ -1,4 +1,4 @@
-var mongoose = require("../services/connection");
+var mongoose = require("mongoose");
 var testschema = require("../schemas/testpaper");
 
 var TestPaperModel = mongoose.model(`TestPaperModel`,testschema);
