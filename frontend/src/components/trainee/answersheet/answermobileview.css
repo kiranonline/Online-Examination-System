@@ -1,0 +1,48 @@
+@media only screen   
+and (max-device-width : 720px)    
+{	
+#root
+{
+	overflow-x:hidden;
+}
+
+.answer-table-wrapper{
+    width:200%;
+}
+
+.ant-spin-nested-loading{
+	width:610px;
+}
+
+.ant-table-wrapper{
+  overflow: scroll;
+  width:330px;
+}
+
+.feedbackFormHolder{
+position:absolute;
+}
+
+.ant-descriptions.ant-descriptions-small.ant-descriptions-bordered
+{
+	position:sticky;
+	width:45%;
+}
+
+.answer-table-heading{
+    width:100%;
+    text-align: center;
+}
+
+.answer-table-outer{
+    width:100%;
+    padding:5px
+}
+
+.ant-input{
+padding-right:180px;
+}
+}
+
+
+	
