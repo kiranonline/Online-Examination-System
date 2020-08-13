@@ -36,7 +36,7 @@ class Sidepanel extends React.Component {
 
     render(){
         return (
-            <div className="side-panel-in-exam-dashboard">
+            <div className={"side-panel-in-exam-dashboard "+(this.props.mode==='desktop'?'w-20':'w-100')}>
                 <Trainee />
                 <Clock/>
                 <Operations />

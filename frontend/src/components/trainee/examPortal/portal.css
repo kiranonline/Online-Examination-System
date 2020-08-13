@@ -58,9 +58,14 @@
     background: #009999;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
-    width:20%;
     right:0;
     height:100%;
+}
+.w-20{
+    width: 20%;
+}
+.w-100{
+    width: 100%;
 }
 .loggedin-trainee-container{
     width:100%;
@@ -146,4 +151,17 @@
 .End-test-container{
     width:100%;
     text-align: center;
+}
+
+
+
+@media(max-device-width : 768px){
+    .Test-portal-not-started-yet-inner{
+        width:90%;
+        min-height: 400px;
+        margin-left: 5%;
+    }
+    .question-holder{
+        width: 100%;
+    }
 }

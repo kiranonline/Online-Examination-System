@@ -177,13 +177,18 @@ class SingleQuestion extends React.Component{
                         <Col span={2}>
                             <Button style={{background:'#009999',color:'#fff'}} shape="circle">{this.props.trainee.activeQuestionIndex+1}</Button>
                         </Col>
-                        <Col span={8} offset={14}>
+                        <Col span={22}>
                             <Radio.Group  style={{float:'right'}}>
                                 <Radio.Button style={{background:'#009999',color:'#fff'}}>{this.props.trainee.questions[this.props.trainee.activeQuestionIndex].anscount===1?"Single answer type":"Multiple answer type"}</Radio.Button>
                                 <Radio.Button style={{background:'#009999',color:'#fff'}}>Marks : {this.props.trainee.questions[this.props.trainee.activeQuestionIndex].weightage}</Radio.Button>
                             </Radio.Group>
                         </Col>
                     </Row>
+                    {
+                        this.props.mode==='mobile'?
+                            <Button onClick={this.props.triggerSidebar} style={{background:'#009999',color:'#fff'}}>Tool</Button>
+                        :null
+                    }
                     <div className="Question-single-body-holder">
                         <div>
                             <h3 style={{fontFamily:"'Montserrat', sans-serif"}}>{this.props.trainee.questions[this.props.trainee.activeQuestionIndex].body}</h3>
