@@ -1,6 +1,8 @@
 import React from 'react';
 import { Table, Icon , Tag,Skeleton, Descriptions,Modal, Button,Row,Col } from 'antd';
 import './answer.css';
+import './answermobileview.css';
+import './individualquestion_mobileview.css';
 import { connect } from 'react-redux';
 import { Post } from '../../../services/axiosCall';
 import apis from '../../../services/Apis';
