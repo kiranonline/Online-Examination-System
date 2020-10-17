@@ -96,5 +96,5 @@ app.listen(PORT,(err)=>{
     if(err){
       console.log(err);
     }
-    console.log(`Running at port ${PORT}`);
+    console.log(`Server Started. Server listening to port ${PORT}`);
 });
