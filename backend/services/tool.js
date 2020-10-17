@@ -24,11 +24,6 @@ var createadmin = ()=>{
 }
 
 
-//check if admin
-var checkadmin = (user)=>{
-    
-}
-
 
  var hashPassword = (password)=>{
     return (new Promise((resolve,reject)=>{

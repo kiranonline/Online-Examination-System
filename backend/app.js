@@ -81,7 +81,7 @@ app.get('*', (req,res) =>{
 
 //error handlings
 app.use(function(req, res, next) {
-    next(createError(404,"Invalid API"));
+    next(createError(404,"Invalid API. Use the official documentation to get the list of valid APIS."));
 });
 
 app.use((err, req, res, next)=>{
