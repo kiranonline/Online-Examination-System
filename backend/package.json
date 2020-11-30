@@ -19,7 +19,7 @@
   "homepage": "https://github.com/sitrain-online/backend#readme",
   "dependencies": {
     "app-root-path": "^2.2.1",
-    "bcrypt": "3.0.6",
+    "bcrypt": "5.0.0",
     "bcryptjs": "2.4.3",
     "body-parser": "^1.19.0",
     "config": "^3.1.0",
