@@ -37,6 +37,6 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
-    "xlsx": "^0.14.4"
+    "xlsx": "^0.17.0"
   }
 }
