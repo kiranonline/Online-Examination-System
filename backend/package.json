@@ -25,7 +25,7 @@
     "config": "^3.1.0",
     "cors": "^2.8.5",
     "exceljs": "^1.13.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-fileupload": "^1.1.5",
     "express-validator": "^5.3.1",
     "helmet": "^3.18.0",
