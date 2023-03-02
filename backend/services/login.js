@@ -8,7 +8,7 @@ var config = require('config');
 
 let userlogin = (req,res,next)=>{
     req.check('emailid', ` Invalid email address`).isEmail().notEmpty();
-    req.check('password','Invalid password').isLength({min : 5,max :6});
+    req.check('password','Invalid password').isLength({min : 5,max :60});
     var errors = req.validationErrors()
     if(errors){
         res.json({
